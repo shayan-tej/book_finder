@@ -52,7 +52,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        title: const Text("E-Books"),
+        title: const Text("Book Finder"),
       ),
       body: _screens[_currentIndex],
       bottomNavigationBar: BottomNavigationBar(
